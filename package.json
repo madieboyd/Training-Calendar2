@@ -1,0 +1,18 @@
+{
+  "name": "training-calendar",
+  "version": "1.0.0",
+  "description": "Training Calendar Application",
+  "main": "index.tsx",
+  "scripts": {
+    "build": "esbuild index.tsx --bundle --outfile=bundle.js --jsx=automatic --platform=browser --define:process.env.NODE_ENV='\"production\"'"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.19.2",
+    "@types/react": "^18.2.21",
+    "@types/react-dom": "^18.2.7"
+  }
+}
